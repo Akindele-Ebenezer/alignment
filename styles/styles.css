@@ -98,7 +98,7 @@ p {
  
 .sec-3 {
     background: var(--pink);
-    padding: 4rem;
+    padding: 4rem 2rem;
 }
 
 .sec-3 button,
@@ -121,7 +121,7 @@ p {
  
 .sec-4,
 .sec-5 {
-    padding: 5rem;
+    padding: 5rem 2rem;
 }
  
 .sec-5 div {
@@ -166,6 +166,11 @@ p {
     }
 }
 
+@media (max-width: 412px) {
+    .sec-2 .box {
+        width: 97vw;   
+    }
+}
 
 @media (max-width: 381px) {
     .sec-5 .box  {
