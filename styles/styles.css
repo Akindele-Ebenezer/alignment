@@ -13,6 +13,10 @@ p {
     line-height: 1.5rem;
 }
 
+.sec-1 {
+    height: 100vh;   
+}
+
 .sec-1,
 .sec-2,
 .sec-3,
@@ -50,6 +54,7 @@ p {
 }
 
 .sec-1 div:nth-child(2) { 
+    background-size: contain;
     width: 50vw;
 }
  
