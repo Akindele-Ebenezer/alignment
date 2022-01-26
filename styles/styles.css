@@ -160,6 +160,11 @@ p {
     padding: 4rem;
 }
 
+
+.sec-inner div {
+    padding: 2rem;    
+}
+
 @media (max-width: 900px) {
     .sec-inner {
         flex-direction: column;
