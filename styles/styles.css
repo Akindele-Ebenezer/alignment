@@ -164,3 +164,10 @@ p {
         flex-direction: column;
     }
 }
+
+
+@media (max-width: 381px) {
+    .sec-5 .box  {
+        width: 97vw;
+    }
+}
