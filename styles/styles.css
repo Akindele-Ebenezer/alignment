@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --pink: rgb(224, 194, 194);
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+.sec-1,
+.sec-2,
+.sec-3,
+.sec-4,
+.sec-5,
+.sec-6,
+.sec-6 .img,
+.sec-7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.sec-1,
+.sec-7 {
+    flex-wrap: unset;
+}
+.sec-1 div:first-child {
+    background-color: rgb(17, 15, 15);
+    color: #fff;
+    padding: 7rem 3rem 7rem 20rem;
+    width: 50vw;
+}
+
+.sec-1 div:first-child button {
+    padding: 1rem;
+}
+
+.sec-1 div:first-child h1 {
+    padding-right: 3rem;
+}
+
+.sec-1 div:first-child p {
+    margin-block: 3rem;
+}
+
+.sec-1 div:nth-child(2) { 
+    width: 50vw;
+}
+ 
+.sec-2,
+.img {
+    padding: 5rem;
+}
+
+.sec-2 .box {
+    border: 1px solid#ccc; 
+    margin-block: 1rem;
+}
+ 
+.sec-2 .box > div,
+.sec-5 .box > div {
+    background-size: cover;
+    height: 15rem;
+    margin: 0rem;
+    width: 14.89rem;
+}
+ 
+.sec-2 .box h1,
+.sec-2 .box p,
+.sec-7 button,
+.sec-7 h1,
+.sec-7 p {
+    padding: 1rem; 
+}
+.sec-2 .box p,
+.sec-4 p { 
+    font-style: italic;
+}
+ 
+.sec-7 div
+ {
+    padding: 5rem 15rem;
+    width: 50vw;
+}
+ 
+.sec-2 div,
+.sec-5 div {
+    margin-inline: 2rem;
+    width: 15rem;
+}
+ 
+.sec-3 {
+    background: var(--pink);
+    padding: 4rem;
+}
+
+.sec-3 button,
+.sec-6 div button,
+.sec-7 button {
+    margin-left: 1rem;
+}
+
+.sec-3 button,
+.sec-3 h1,
+.sec-3 p,
+.sec-4 h1,
+.sec-5 h1,
+.sec-5 p,
+.sec-6 div h1,
+.sec-6 div button,
+.sec-6 div p {
+    padding: 1rem;
+}
+ 
+.sec-4,
+.sec-5 {
+    padding: 5rem;
+}
+ 
+.sec-5 div {
+    margin-block: 1rem;
+    width: 25rem;
+}
+.sec-5 .box > div {
+    width: 25rem;
+}
+
+.sec-4 div {
+    text-align: center;
+    width: 60rem;
+}
+ 
+.sec-6 div div:last-child div {
+    background-size: cover;
+    height: 15rem;
+    margin: 2rem;
+    width: 15rem;
+}
+
+.sec-7 {
+    height: 30rem;
+}
+
+.sec-7 div:first-child {
+    background: #111;
+    color: white;
+}
+
+.sec-inner {
+    background-color: var(--pink);
+    display: flex; 
+    justify-content: center;  
+    padding: 4rem;
+}
+
+@media (max-width: 900px) {
+    .sec-inner {
+        flex-direction: column;
+    }
+}
