@@ -36,8 +36,7 @@ p {
 }
 .sec-1 div:first-child {
     background-color: rgb(17, 15, 15);
-    color: #fff;
-    padding: 7rem;
+    color: #fff; 
     width: 50vw;
 }
 
@@ -53,11 +52,20 @@ p {
     margin-block: 3rem;
 }
 
-.sec-1 div:nth-child(2) { 
+.sec-1 div:nth-child(2) {     
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
     width: 50vw;
 }
  
+.sec-1-inner {    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-inline: 12rem;
+}
+
 .sec-2,
 .img {
     padding: 5rem;
