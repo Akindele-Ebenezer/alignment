@@ -14,7 +14,7 @@ p {
 }
 
 .sec-1 {
-    height: 100vh;   
+    height: 50vh;   
 }
 
 .sec-1,
@@ -71,14 +71,15 @@ p {
     padding: 5rem;
 }
 
-.sec-2 .box {
-    border: 1px solid#ccc; 
+.sec-2 .box { 
     margin-block: 1rem;
 }
  
 .sec-2 .box > div,
 .sec-5 .box > div {
     background-size: cover;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 19px #bbb;
     height: 15rem;
     margin: 0rem;
     width: 24.9rem;
