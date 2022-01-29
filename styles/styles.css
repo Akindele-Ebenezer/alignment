@@ -59,7 +59,7 @@ p {
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-inline: 12rem;
+    padding: 6rem 12rem;
 }
 
 .sec-2,
