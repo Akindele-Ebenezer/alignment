@@ -24,15 +24,13 @@ p {
 .sec-4,
 .sec-5,
 .sec-6,
-.sec-6 .img,
-.sec-7 {
+.sec-6 .img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
  
-.sec-1,
-.sec-7 {
+.sec-1 {
     flex-wrap: unset;
 }
 .sec-1 div:first-child {  
@@ -54,7 +52,7 @@ p {
 .sec-1 div:nth-child(2) {     
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-radius: 50%;
     width: 50vw;
 }
@@ -86,17 +84,8 @@ p {
 }
  
 .sec-2 .box h1,
-.sec-2 .box p,
-.sec-7 button,
-.sec-7 h1,
-.sec-7 p {
+.sec-2 .box p {
     padding: 1rem; 
-}
- 
-.sec-7 div
- {
-    padding: 5rem 15rem;
-    width: 50vw;
 }
  
 .sec-2 div,
@@ -111,8 +100,7 @@ p {
 }
 
 .sec-3 button,
-.sec-6 div button,
-.sec-7 button {
+.sec-6 div button {
     margin-left: 1rem;
 }
 
@@ -151,15 +139,6 @@ p {
     height: 15rem;
     margin: 2rem;
     width: 15rem;
-}
-
-.sec-7 {
-    height: 30rem;
-}
-
-.sec-7 div:first-child {
-    background: #111;
-    color: white;
 }
 
 .sec-inner {
