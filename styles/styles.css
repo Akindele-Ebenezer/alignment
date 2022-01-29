@@ -13,6 +13,10 @@ p {
     line-height: 1.5rem;
 } 
 
+.sec-1 {
+  padding-right: 5rem;
+}
+
 .sec-1,
 .sec-2,
 .sec-3,
@@ -30,9 +34,7 @@ p {
 .sec-7 {
     flex-wrap: unset;
 }
-.sec-1 div:first-child {
-    background-color: rgb(17, 15, 15);
-    color: #fff; 
+.sec-1 div:first-child {  
     width: 50vw;
 }
 
@@ -52,6 +54,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 50%;
     width: 50vw;
 }
  
