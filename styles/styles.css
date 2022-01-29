@@ -136,6 +136,8 @@ p {
  
 .sec-6 div div:last-child div {
     background-size: cover;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 19px #bbb;
     height: 15rem;
     margin: 2rem;
     width: 15rem;
