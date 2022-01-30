@@ -12,11 +12,7 @@
 
 p {
     line-height: 1.5rem;
-} 
-
-.sec-1 {
-  padding-right: 5rem;
-}
+}  
 
 .sec-1,
 .sec-2,
@@ -27,14 +23,11 @@ p {
 .sec-6 .img {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
- 
-.sec-1 {
-    flex-wrap: unset;
-}
+  
 .sec-1 div:first-child {  
-    width: 50vw;
+    width: 20rem;
 }
 
 .sec-1 div:first-child button {
@@ -54,14 +47,13 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 50%;
-    width: 50vw;
+    width: 30rem;
 }
  
 .sec-1-inner {    
     align-items: center;
     display: flex;
-    justify-content: center;
-    padding: 6rem 12rem;
+    justify-content: center; 
 }
 
 .sec-2,
