@@ -160,7 +160,8 @@ p {
 }
 
 @media (max-width: 396px) {
-    .sec-2 .box > div, .sec-5 .box > div {
+    .sec-2 .box > div,
+    .sec-5 .box > div {
         width: 95vw;   
     }
 }
