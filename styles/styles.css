@@ -37,6 +37,7 @@ footer,
 
 header {
     background: #fff;
+    box-shadow: 2px 2px 19px #ddd;
     position: fixed;
     top: 0;
     width: 100%;
@@ -142,7 +143,7 @@ p {
 }
  
 .sec-3 {
-    background: var(--color-2);
+    background-image: linear-gradient(to top left, var(--color-2), var(--grey));
     padding: 4rem 2rem;
 }
 
