@@ -10,9 +10,45 @@
     --pink: rgb(224, 194, 194);
 }
 
+.footer {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+
+.footer div:first-child,
+.footer div:last-child {
+    width: 35rem;
+}
+
+header {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    padding-inline: 1.5rem;
+}
+
 p {
     line-height: 1.5rem;
 }  
+
+.sec-1 {
+    margin-top: 4.5rem;
+}
 
 .sec-1,
 .sec-2,
