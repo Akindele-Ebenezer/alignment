@@ -7,6 +7,7 @@
 
 :root {
     --color-2: rgb(200, 197, 242);
+    --grey: rgb(234, 234, 234);
     --pink: rgb(224, 194, 194);
 }
 
@@ -61,6 +62,11 @@ p {
 
 .sec-1 {
     padding-block: 6.5rem;
+}
+
+.sec-1,
+.sec-5 {
+    background-color: var(--grey);   
 }
 
 .sec-1,
