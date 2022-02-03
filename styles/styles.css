@@ -191,6 +191,10 @@ p {
     padding: 2rem;    
 }
 
+ul {
+    list-style: none;   
+}
+
 @media (max-width: 900px) {
     .sec-inner {
         flex-direction: column;
