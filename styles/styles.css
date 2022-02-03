@@ -25,6 +25,10 @@
     width: 35rem;
 }
 
+.footer h1 {
+    padding-block: 2rem;   
+}
+
 header {
     background: #fff;
     position: fixed;
