@@ -15,7 +15,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 } 
-        
+
+footer,
+.sec-2 {
+    background: var(--pink);   
+}
+
 .footer div {
     padding: 2rem;
 }
