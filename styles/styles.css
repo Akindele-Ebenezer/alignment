@@ -219,3 +219,9 @@ ul {
         width: 97vw;
     }
 }
+
+@media (max-width: 343px) {  
+    .sec-1-inner div {
+        width: 97vw;
+    }  
+}
