@@ -37,7 +37,6 @@ footer,
 
 header {
     background: #fff;
-    box-shadow: 2px 2px 19px #ddd;
     position: fixed;
     top: 0;
     width: 100%;
@@ -142,6 +141,12 @@ p {
     width: 25rem;
 }
  
+.sec-3,
+.sec-inner,
+header { 
+    box-shadow: 2px 2px 19px #ddd;   
+}
+
 .sec-3 {
     background-image: linear-gradient(to top left, var(--color-2), var(--grey));
     padding: 4rem 2rem;
