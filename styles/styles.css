@@ -214,6 +214,10 @@ header,
     width: 30rem;
 }
  
+.sec-6 .sec-inner-wrapper .img {
+    width: unset;
+}
+
 /* OVERWRITE  */
 
 .sec-4,
