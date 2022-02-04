@@ -178,6 +178,11 @@ p {
     width: 25rem;
 }
  
+.sec-2-title {
+    text-align: center;
+    padding-block: 2rem;
+}
+
 .sec-3,
 .sec-inner,
 header,
