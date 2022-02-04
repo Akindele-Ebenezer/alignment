@@ -7,6 +7,7 @@
 
 :root {
     --color-2: rgb(200, 197, 242);
+    --color-3: lightcoral;
     --grey: rgb(234, 234, 234);
     --pink: rgb(224, 194, 194);
 }
@@ -19,7 +20,14 @@
 }
 
 .box button {
+    letter-spacing: .2rem;
     margin-left: 1rem;
+    padding: .3rem;
+}
+
+.box h1,
+.box button {
+    color: var(--color-3);   
 }
 
 .footer {
@@ -223,7 +231,7 @@ header {
 .footer div, 
 .sec-3 div {
     padding: 2rem;
-    border-left: 10px solid lightcoral;  
+    border-left: 10px solid var(--color-3);  
 }
 
 ul {
