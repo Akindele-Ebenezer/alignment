@@ -70,8 +70,7 @@ p {
 .sec-1 {
     padding-block: 6.5rem;
 }
-
-.sec-1,
+ 
 .sec-5 {
     background-color: var(--grey);   
 }
@@ -155,7 +154,7 @@ header {
 }
 
 .sec-3 {
-    background-image: linear-gradient(to top left, var(--color-2), var(--grey));
+    background: var(--pink);
     padding: 4rem 2rem;
 }
 
