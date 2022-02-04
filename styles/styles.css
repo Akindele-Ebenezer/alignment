@@ -18,6 +18,10 @@
     padding-block: 3rem;
 }
 
+.box button {
+    margin-left: 1rem;
+}
+
 .footer {
     display: flex; 
     flex-wrap: wrap;
