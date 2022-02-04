@@ -96,6 +96,10 @@ p {
 }
 
 .sec-1 div:first-child h1 {
+    border-bottom: 2px solid cadetblue;
+    border-bottom-right-radius: 1.2rem;
+    border-top: 10px solid var(--pink);
+    padding-block: 1rem;
     padding-right: 3rem;
 }
 
