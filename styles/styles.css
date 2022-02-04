@@ -214,8 +214,11 @@ header {
 }
 
 
-.sec-inner div {
-    padding: 2rem;    
+.sec-inner div, 
+.footer div, 
+.sec-3 div {
+    padding: 2rem;
+    border-left: 10px solid lightcoral;  
 }
 
 ul {
