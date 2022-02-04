@@ -128,11 +128,7 @@ p {
     margin-block: 3rem;
 }
 
-.sec-1 div:nth-child(2) {     
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 50%;
+.sec-1 div:nth-child(2) {    
     width: 30rem;
 }
  
