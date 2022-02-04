@@ -91,14 +91,6 @@ p {
     margin-top: 5rem;
     padding-block: 6.5rem;
 }
- 
-.sec-1 div:nth-child(2),
-.img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 30rem;
-}
 
 .sec-1 div:nth-child(2) img {
     width: 15rem;
@@ -177,6 +169,8 @@ p {
 }
  
 .sec-2-title {
+    background: var(--grey);
+    color: #333;
     text-align: center;
     padding-block: 2rem;
 }
@@ -210,6 +204,18 @@ header,
     padding: 1rem;
 }
  
+/* OVERWRITE  */
+
+.sec-1 div:nth-child(2),
+.sec-6 .sec-inner-wrapper .img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 30rem;
+}
+ 
+/* OVERWRITE  */
+
 .sec-4,
 .sec-5 {
     padding: 5rem 2rem;
