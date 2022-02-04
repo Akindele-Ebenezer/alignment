@@ -8,13 +8,15 @@
 :root {
     --color-2: rgb(200, 197, 242);
     --color-3: lightcoral;
+    --color-4: #333;
+    --color-5: cadetblue;
     --grey: rgb(234, 234, 234);
     --pink: rgb(224, 194, 194);
 }
 
 .box {
-    border-top: 15px solid cadetblue;
-    border-bottom: 2px solid cadetblue;
+    border-top: 15px solid var(--color-5);
+    border-bottom: 2px solid var(--color-5);
     margin-block: 1rem;
     padding-block: 3rem;
 }
@@ -32,7 +34,7 @@
 
 .box h1,
 .box button {
-    color: var(--color-3);   
+    color: var(--color-4);   
 }
 
 .footer {
@@ -114,7 +116,7 @@ p {
 }
 
 .sec-1 div:first-child h1 {
-    border-bottom: 2px solid cadetblue;
+    border-bottom: 2px solid var(--color-5);
     border-bottom-right-radius: 1.2rem;
     border-top: 10px solid var(--pink);
     padding-block: 1rem;
