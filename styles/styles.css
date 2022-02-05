@@ -282,6 +282,18 @@ ul {
     }
 }
 
+@media (max-width: 798px) {
+    .sec-1 div:first-child {
+        margin-bottom: 2rem;   
+    }
+}
+
+@media (max-width: 716px) {
+    .footer {
+        justify-content: unset;
+    }
+}
+
 @media (max-width: 412px) {
     .sec-2 .box {
         width: 97vw;   
