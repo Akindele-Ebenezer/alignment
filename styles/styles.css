@@ -93,7 +93,8 @@ p {
 }  
 
 .sec-1 {
-    margin-top: 7rem; 
+    margin-top: 5rem; 
+    padding-block: 2.5rem;
 }
 
 .sec-1 div:nth-child(2) img {
