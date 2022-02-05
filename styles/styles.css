@@ -282,6 +282,18 @@ ul {
     }
 }
 
+@media (max-width: 888px) {
+    .header:first-of-type {
+        display: none;
+    }
+}
+
+@media (min-width: 888px) {
+    .header-sm-screen {
+        display: none;
+    }
+}
+
 @media (max-width: 798px) {
     .sec-1 div:first-child {
         margin-bottom: 2rem;   
