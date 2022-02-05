@@ -283,7 +283,7 @@ ul {
 }
 
 @media (max-width: 888px) {
-    .header:first-of-type {
+    header:first-of-type {
         display: none;
     }
 }
