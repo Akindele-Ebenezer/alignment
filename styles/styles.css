@@ -32,7 +32,7 @@
     font-size: 3rem;
 }
 
-button {
+button:not(.sec-3 button, .sec-6 div button) {
     background: var(--color-5);
     border: none;
     border-radius: .65rem;
@@ -124,7 +124,7 @@ p {
     width: 20rem;
 }
 
-.sec-1 div:first-child button {
+button {
     padding: 1rem;
 }
 
