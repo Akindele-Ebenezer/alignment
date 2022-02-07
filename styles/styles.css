@@ -23,19 +23,13 @@
 
 .box button {
     letter-spacing: .2rem;
-    margin-left: 1rem;
-    padding: .3rem;
+    margin-left: 1rem; 
 }
 
 .box h1,
 .sec-4 > div h1,
 .sec-1-inner div h2 {
     font-size: 3rem;
-}
-
-.box h1,
-.box button {
-    color: var(--color-4);   
 }
 
 button {
