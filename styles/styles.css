@@ -38,6 +38,15 @@
     color: var(--color-4);   
 }
 
+button {
+    background: var(--color-5);
+    border: none;
+    border-radius: .65rem;
+    box-shadow: 1px 2px 19px #ccc;
+    color: #fff;
+    letter-spacing: .12rem;
+}
+
 .footer {
     display: flex; 
     flex-wrap: wrap;
