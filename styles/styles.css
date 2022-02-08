@@ -246,6 +246,10 @@ header {
  
 /* OVERWRITE  */
 
+.sec-1 div:nth-child(2) {
+    margin-block: 3rem;
+}
+
 .sec-1 div:nth-child(2),
 .sec-6 .sec-inner-wrapper .img {
     display: flex;
