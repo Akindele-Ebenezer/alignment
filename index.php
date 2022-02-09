@@ -19,7 +19,7 @@
             </div>
     
             <div>
-                <img src="images/bg-1.jpeg" alt="">
+                <img src="images/used-cars.jpg" alt="">
                 <img src="images/bg-2.jpeg" alt="">
                 <img src="images/bg-3.jpg" alt="">
                 <img src="images/bg-4.jpeg" alt=""> 
@@ -35,6 +35,20 @@
         <section class="sec-2">
             
             <div class="box">
+                <div style="background-image: url('images/used-cars.jpg')"></div>
+                <h1>Resale of Refurbished Company used Vehicle</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <button>NOTIFY</button>
+            </div>
+
+            <div class="box">
+                <div style="background-image: url('images/solar.jpeg')"></div>
+                <h1>Installation of Inverter and Solar System</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <button>NOTIFY</button>
+            </div> 
+            
+            <div class="box">
                 <div style="background-image: url('images/services-1.jpeg')"></div>
                 <h1>Car Service</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
@@ -44,20 +58,6 @@
             <div class="box">
                 <div style="background-image: url('images/services-2.jpg')"></div>
                 <h1>Vehicle Alignment</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
-                <button>NOTIFY</button>
-            </div>
-
-            <div class="box">
-                <div style="background-image: url('images/services-3.jpg')"></div>
-                <h1>Installation of Inverter and Solar System</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
-                <button>NOTIFY</button>
-            </div>
-
-            <div class="box">
-                <div style="background-image: url('images/services-4.png')"></div>
-                <h1>Resale of Refurbished Company used Vehicle</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
                 <button>NOTIFY</button>
             </div>
@@ -78,7 +78,7 @@
         <section class="sec-4">
 
             <div>
-                <h1>SUPPLIES</h1>
+                <h1>Our SUPPLIES</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem labore itaque voluptatibus dolore cum repellendus officia quae, optio debitis, fuga voluptas exercitationem dignissimos veritatis qui eaque nostrum quidem dolorem?
                 Deserunt soluta fugit cum! Mollitia, doloremque blanditiis similique harum cupiditate molestias illum ipsam natus libero, perferendis itaque. Rerum soluta eos consectetur! Maxime molestias nostrum repellendus dicta sint perspiciatis quia incidunt. </p>
             </div>
@@ -88,20 +88,20 @@
         <section class="sec-5">
 
         <div class="box">
-                <div style="background-image: url('images/services-4.png')"></div>
+                <div style="background-image: url('images/doors.jpg'); background-size: contain;"></div>
                 <h1>Doors</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
                 <button>NOTIFY</button>
             </div>
             
             <div class="box">
-                <div style="background-image: url('images/services-4.png')"></div>
+                <div style="background-image: url('images/iron-gates.jpg')"></div>
                 <h1>Iron Gates</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
                 <button>NOTIFY</button>
             </div>
             <div class="box">
-                <div style="background-image: url('images/img-1.jpeg')"></div>
+                <div style="background-image: url('images/paints.jpg')"></div>
                 <h1>Paints</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illum deserunt labore dolorum exercitationem velit pariatur doloribus odio dolorem doloremque natus fugiat, voluptate est repudiandae corporis tempore. Aperiam, vero magni.
                 Illo quos eligendi quam eos ratione. </p>
@@ -129,8 +129,8 @@
                 </div>
                 <div class="img">
                     <img src="images/bg-1.jpeg" alt="">
-                    <img src="images/bg-2.jpeg" alt="">
-                    <img src="images/bg-3.jpg" alt="">
+                    <img src="images/used-cars-2.jpg" alt="">
+                    <img src="images/used-cars-3.jpg" alt="">
                     <img src="images/bg-4.jpeg" alt=""> 
                 </div>
             </div>
@@ -147,7 +147,7 @@
                 </div>
             </div>
             
-            <div style="background-image: url('images/img-1.jpeg');"></div>     
+            <div style="background-image: url('images/used-cars-3.jpg'); background-size: cover;"></div>     
 
         </section> 
         

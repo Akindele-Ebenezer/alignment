@@ -109,27 +109,6 @@ p {
     padding-block: 2.5rem;
 }
 
-.sec-1 b, 
-header b {
-    color: var(--color-3);
-    font-family: 'Rowdies', cursive;
-}
-
-.sec-1 button:last-child:not(.sec-6 + .sec-1 button) {
-    background: none;
-    box-shadow: unset;
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: var(--color-3);
-    text-decoration-thickness: .3rem;
-}
-
-.sec-1 span,
-header span {
-    color: var(--color-5);
-    font-family: 'Rowdies', cursive;
-}
-
 .sec-1 div:nth-child(2) img {
     width: 15rem;
 }
@@ -165,6 +144,28 @@ header span {
 
 button {
     padding: 1rem;
+}
+
+
+.sec-1 b, 
+header b {
+    color: var(--color-3);
+    font-family: 'Rowdies', cursive;
+}
+
+.sec-1 button:last-child:not(.sec-6 + .sec-1 button) {
+    background: none;
+    box-shadow: unset;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: var(--color-3);
+    text-decoration-thickness: .3rem;
+}
+
+.sec-1 span,
+header span {
+    color: var(--color-5);
+    font-family: 'Rowdies', cursive;
 }
 
 .sec-1 div:first-child h1 {
