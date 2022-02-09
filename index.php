@@ -14,6 +14,7 @@
                     <h2>EBEN<b>GM</b> <span>Enterprises</span></h2>
                     <p> Our nature of business include Vehicles Alignment, Car Service,   Installation of Inverter and Solar System, Resale of Refurbished Company Used Vehicle, Iron Gates and Doors, Paints and even more.</p>
                     <button>CONTACT US</button>
+                    <button>LEARN MORE</button>
                 </div>
             </div>
     
