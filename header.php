@@ -16,7 +16,7 @@
     <header>
         <nav>
             <div>
-                <h4>EBEN<b>GM</b> <span>Enterprises</span></h4>
+                <h4>EBEN<b>GM</b></h4>
             </div>
             <div>
                 <ul>
@@ -32,7 +32,7 @@
     <header class="header-sm-screen">
         <nav>
             <div>
-                <h4>EBEN<b>GM</b> <span>Enterprises</span></h4>
+                <h4>EBEN<b>GM</b></h4>
             </div>
             <div>
                 <img src="#" alt="Nav-Icon" />
