@@ -109,12 +109,14 @@ p {
     padding-block: 2.5rem;
 }
 
-.sec-1 b {
+.sec-1 b, 
+header b {
     color: var(--color-3);
     font-family: 'Rowdies', cursive;
 }
 
-.sec-1 span {
+.sec-1 span,
+header span {
     color: var(--color-5);
     font-family: 'Rowdies', cursive;
 }
