@@ -109,6 +109,16 @@ p {
     padding-block: 2.5rem;
 }
 
+.sec-1 b {
+    color: var(--color-3);
+    font-family: 'Rowdies', cursive;
+}
+
+.sec-1 span {
+    color: var(--color-5);
+    font-family: 'Rowdies', cursive;
+}
+
 .sec-1 div:nth-child(2) img {
     width: 15rem;
 }
