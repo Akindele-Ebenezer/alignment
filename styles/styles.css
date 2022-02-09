@@ -115,6 +115,15 @@ header b {
     font-family: 'Rowdies', cursive;
 }
 
+.sec-1 button:last-child {
+    background: none;
+    box-shadow: unset;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: var(--color-3);
+    text-decoration-thickness: .3rem;
+}
+
 .sec-1 span,
 header span {
     color: var(--color-5);
