@@ -115,7 +115,7 @@ header b {
     font-family: 'Rowdies', cursive;
 }
 
-.sec-1 button:last-child {
+.sec-1 button:last-child:not(.sec-6 + .sec-1 button) {
     background: none;
     box-shadow: unset;
     color: black;
