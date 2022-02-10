@@ -35,7 +35,7 @@
                 <h4>EBEN<b>GM</b> <span>Enterprises</span></h4>
             </div>
             <div>
-                <img src="#" alt="Nav-Icon" />
+                <img src="images/menu-icon.png" alt="Nav-Icon" />
             </div>
         </nav>
     </header>
