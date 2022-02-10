@@ -104,12 +104,6 @@ p {
     line-height: 1.5rem;
 }  
 
-.sec-1 {
-    align-items: center;
-    height: 100vh;
-    justify-content: space-around;
-}
-
 .sec-1 div:nth-child(2) img {
     width: 15rem;
 }
@@ -332,6 +326,14 @@ header {
 
 ul {
     list-style: none;   
+}
+
+@media (min-width: 1142px) {    
+    .sec-1 {
+        align-items: center;
+        height: 100vh;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 900px) {
