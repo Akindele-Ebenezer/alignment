@@ -105,8 +105,9 @@ p {
 }  
 
 .sec-1 {
-    margin-top: 5rem; 
-    padding-block: 2.5rem;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
 }
 
 .sec-1 div:nth-child(2) img {
