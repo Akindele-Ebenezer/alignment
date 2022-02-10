@@ -328,6 +328,12 @@ ul {
     list-style: none;   
 }
 
+@media (max-width: 1142px) {
+    .sec-1 {
+        margin-top: 9rem;
+    }
+}
+
 @media (min-width: 1142px) {    
     .sec-1 {
         align-items: center;
