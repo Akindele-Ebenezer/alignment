@@ -147,7 +147,7 @@
                 </div>
             </div>
             
-            <div style="background-image: url('images/used-cars-3.jpg'); background-size: cover;"></div>     
+            <div style="background-image: url('images/used-cars-3.jpg'); background-size: cover; height: 20rem;"></div>     
 
         </section> 
         
