@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EBEN GM</title>
 </head>
 <body>
     
@@ -32,7 +32,7 @@
     <header class="header-sm-screen">
         <nav>
             <div>
-                <h4>EBEN<b>GM</b> <span>Enterprises</span></h4>
+                <h4>EBEN <b>GM</b> <span>Enterprises</span></h4>
             </div>
             <div>
                 <img src="images/menu-icon.png" alt="Nav-Icon" />
