@@ -100,9 +100,16 @@ header nav ul li {
     padding-inline: 1.5rem;
 }
 
+.header-sm-screen nav div img {
+    background: #fff;
+    border-radius: 50%;
+    width: 3rem;
+}
+
 main {
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 p {
