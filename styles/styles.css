@@ -347,6 +347,15 @@ ul {
     }
 }
 
+@media (min-width: 950px) {
+    .sec-3-wrapper {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+    }
+}
+
 @media (max-width: 900px) {
     .sec-inner {
         flex-direction: column;
