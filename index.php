@@ -64,54 +64,32 @@
 
         </section>
 
-        <section class="sec-3">
 
-            <!-- IMAGE -->
+        <div class="sec-3-wrapper">
             <div>
-                <h1>Need Help?</h1>
-                <p>Call us now for urgent jobs. <br> We render services very accurately, as fast as we can.</p>
-                <button>CALL</button>
+                <section class="sec-3">
+
+                    <!-- IMAGE -->
+                    <div>
+                        <h1>Need Help?</h1>
+                        <p>Call us now for urgent jobs. <br> We render services very accurately, as fast as we can.</p>
+                        <button>CALL</button>
+                    </div>
+
+                </section>
+
+                <section class="sec-4">
+
+                    <div>
+                        <h1>Our SUPPLIES</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem labore itaque voluptatibus dolore cum repellendus officia quae, optio debitis, fuga voluptas exercitationem dignissimos veritatis qui eaque nostrum quidem dolorem?
+                        Deserunt soluta fugit cum! Mollitia, doloremque blanditiis similique harum cupiditate molestias illum ipsam natus libero, perferendis itaque. Rerum soluta eos consectetur! Maxime molestias nostrum repellendus dicta sint perspiciatis quia incidunt. </p>
+                    </div>
+
+                </section>
             </div>
-
-        </section>
-
-        <section class="sec-4">
-
-            <div>
-                <h1>Our SUPPLIES</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem labore itaque voluptatibus dolore cum repellendus officia quae, optio debitis, fuga voluptas exercitationem dignissimos veritatis qui eaque nostrum quidem dolorem?
-                Deserunt soluta fugit cum! Mollitia, doloremque blanditiis similique harum cupiditate molestias illum ipsam natus libero, perferendis itaque. Rerum soluta eos consectetur! Maxime molestias nostrum repellendus dicta sint perspiciatis quia incidunt. </p>
-            </div>
-
-        </section>
-
-        <section class="sec-5">
-
-        <div class="box">
-                <div style="background-image: url('images/doors.jpg'); background-size: contain;"></div>
-                <h1>Doors</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
-                <button>NOTIFY</button>
-            </div>
-            
-            <div class="box">
-                <div style="background-image: url('images/iron-gates.jpg')"></div>
-                <h1>Iron Gates</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
-                <button>NOTIFY</button>
-            </div>
-            <div class="box">
-                <div style="background-image: url('images/paints.jpg')"></div>
-                <h1>Paints</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illum deserunt labore dolorum exercitationem velit pariatur doloribus odio dolorem doloremque natus fugiat, voluptate est repudiandae corporis tempore. Aperiam, vero magni.
-                Illo quos eligendi quam eos ratione. </p>
-                <button>NOTIFY</button>
-            </div>
-
-        </section>
-
-        <section><!-- image --></section>
-
+        </div>
+        
         <section class="sec-6">
 
             <div class="sec-inner-wrapper">
