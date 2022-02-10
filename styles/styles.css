@@ -30,6 +30,11 @@
     margin-left: 1rem; 
 }
 
+footer h1,
+.sec-4 h1 {
+    color: var(--color-5);
+}
+
 h1:not(.sec-1 div:first-child h1),
 h2, .sec-6 + .sec-1 div:first-child h1 {
     font-family: 'Rowdies', cursive;
