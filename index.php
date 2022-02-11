@@ -121,7 +121,12 @@
 
                     <div>
                         <h1>About Us</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id quo autem molestias vitae, rerum fuga optio reiciendis velit illo enim repudiandae cupiditate maxime asperiores iusto dolores? Vitae, earum nesciunt.</p>
+                        <p>Our nature of business covers all  supply, services, Logistics and sales. <br><br> All supplies include motor bikes, tricycles Keke, Tyres, battery, spare parts, lubricants , iron doors, house paints, and many more. <br><br> 
+Services include Vehicles alignment, Car Service ,  Installation of Inverter and Solar System,  Home furniture, painting, Tiling works, projects supervision for top finishing. <br><br>
+
+ Logistics include car and buses hire , Ferry Service. <br>  
+Refurbished and resale of still in very good condition company/private used vehicles. <br>
+Sales and distribution of finished goods.</p>
                         <button>Read More</button>
                     </div>
                 </div>
