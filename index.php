@@ -81,9 +81,27 @@
                 <section class="sec-4">
 
                     <div>
-                        <h1>Our SUPPLIES</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem labore itaque voluptatibus dolore cum repellendus officia quae, optio debitis, fuga voluptas exercitationem dignissimos veritatis qui eaque nostrum quidem dolorem?
-                        Deserunt soluta fugit cum! Mollitia, doloremque blanditiis similique harum cupiditate molestias illum ipsam natus libero, perferendis itaque. Rerum soluta eos consectetur! Maxime molestias nostrum repellendus dicta sint perspiciatis quia incidunt. </p>
+                        <h1>Our SUPPLIES 😉</h1>
+                        <p>We Supply all brands of new products like;
+                            <ul>
+                                <li> tyres</li>
+                                <li>motor bikes</li>
+                                <li>tricycles (Keke)</li>
+                                <li>car servicing and spare parts</li>
+                                <li>accessories</li>
+                                <li>Engine oil</li>
+                                <li>filters</li>
+                            </ul>
+
+                            <p>and other lubricants such as...</p>
+
+                            <ul>
+                                <li>cars</li>
+                                <li>inverter batteries</li>
+                                <li>paints</li>
+                                <li>personal protective equipment PPEs</li> 
+                            </ul>
+                            <p>And many more.. 😃</p>
                         <br>
                         <button>VIEW ALL SUPPLIES</button>
                     </div>
