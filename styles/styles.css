@@ -390,8 +390,7 @@ ul {
     .sec-3-wrapper {
         align-items: center;
         display: flex;
-        justify-content: center;
-        height: 100vh;
+        justify-content: center; 
     }
 }
 
