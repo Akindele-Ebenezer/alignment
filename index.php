@@ -37,28 +37,28 @@
             <div class="box">
                 <div style="background-image: url('images/used-cars.jpg')"></div>
                 <h1>Resale of Refurbished Company used Vehicle</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <p>We will get you first body company used vehicles and refurbished to your taste at affordable price.</p>
                 <button>NOTIFY</button>
             </div>
 
             <div class="box">
                 <div style="background-image: url('images/solar.jpeg')"></div>
                 <h1>Installation of Inverter and Solar System</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <p>Base on your load requirement, we provide corresponding capacity of inverter and solar panels as cost saving  for petrol/diesel. <br><br> Enjoy noiseless environment with excellent neighbor friendliness achieved.</p>
                 <button>NOTIFY</button>
             </div> 
             
             <div class="box">
                 <div style="background-image: url('images/services-1.jpeg')"></div>
-                <h1>Car Service</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <h1>Car Services</h1>
+                <p>Replacement with quality oils,  filters and plugs. <br><br> Including Service advise on how to maintain  your car in good condition.</p>
                 <button>NOTIFY</button>
             </div>
 
             <div class="box">
                 <div style="background-image: url('images/services-2.jpg')"></div>
                 <h1>Vehicle Alignment</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <p>Available to keep your vehicles running smoothly and maintain  Fuel Economy Efficiency</p>
                 <button>NOTIFY</button>
             </div>
 
