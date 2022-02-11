@@ -123,11 +123,7 @@ p {
 
 .sec-1 div:nth-child(2) img {
     width: 15rem;
-}
-
-.sec-5 {
-    background-color: var(--grey);   
-}
+} 
 
 .sec-1,
 .sec-2,
