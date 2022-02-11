@@ -277,7 +277,21 @@ header {
 .sec-6 div p {
     padding: 1rem;
 }
- 
+   
+.sec-4 ul li {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.sec-4 ul li:before {
+    content: " - ";
+}
+
+.sec-4 p { 
+    font-style: italic;
+    margin-block: 1rem;
+}
+
 /* OVERWRITE  */
 
 .sec-1 div:nth-child(2),
