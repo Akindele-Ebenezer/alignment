@@ -84,6 +84,8 @@
                         <h1>Our SUPPLIES</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem labore itaque voluptatibus dolore cum repellendus officia quae, optio debitis, fuga voluptas exercitationem dignissimos veritatis qui eaque nostrum quidem dolorem?
                         Deserunt soluta fugit cum! Mollitia, doloremque blanditiis similique harum cupiditate molestias illum ipsam natus libero, perferendis itaque. Rerum soluta eos consectetur! Maxime molestias nostrum repellendus dicta sint perspiciatis quia incidunt. </p>
+                        <br>
+                        <button>VIEW ALL SUPPLIES</button>
                     </div>
 
                 </section>
