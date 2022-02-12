@@ -16,9 +16,8 @@
     <header>
         <nav>
             <div>
-            <h4>EBEN <b>GM</b></h4>
-                <br>
-                <span>Enterprises</span>
+            <h4>EBEN <b>GM</b></h4> 
+            <span>Enterprises</span>
             </div>
             <div>
                 <ul>
