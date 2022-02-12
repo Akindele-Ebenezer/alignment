@@ -120,6 +120,14 @@ main {
     overflow: hidden;
 }
 
+nav div:first-child {
+    font-size: small;
+}
+
+nav div:last-child {
+    align-self: center;
+}
+
 p {
     font-size: large;
     line-height: 2rem;
