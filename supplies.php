@@ -1,4 +1,5 @@
 <?php 
+    $page_title = "Our Supplies";
     $title = "What We Supply";
     $content = " 
                 <section class='sec-5'> 
