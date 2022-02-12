@@ -100,6 +100,10 @@ header nav ul li {
     padding-inline: 1.5rem;
 }
 
+header span {
+    font-size: smaller;
+}
+
 .header-sm-screen nav div img {
     background: #fff;
     border-radius: 50%;
@@ -170,8 +174,7 @@ header b {
     text-decoration-thickness: .3rem;
 }
 
-.sec-1 span,
-header span {
+.sec-1 span {
     color: var(--color-5);
     font-family: 'Rowdies', cursive;
 }
