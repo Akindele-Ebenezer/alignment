@@ -411,7 +411,7 @@ ul {
     }
 } 
 
-@media (min-width: 888px) {    
+@media (max-width: 888px) {    
     header:first-of-type {
         display: none;
     }
@@ -420,7 +420,9 @@ ul {
         justify-content: space-between;
         padding-inline: .5rem;
     }
-    
+}
+
+@media (min-width: 888px) {   
     .header-sm-screen {
         display: none;
     }
