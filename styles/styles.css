@@ -384,6 +384,11 @@ ul {
 }
 
 @media (max-width: 1142px) {
+    header nav {
+        justify-content: space-between;
+        padding-inline: .5rem;
+    }
+    
     .sec-1 {
         margin-top: 7rem;
     }
