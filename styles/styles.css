@@ -88,8 +88,7 @@ header {
 
 header nav {
     display: flex;
-    justify-content: space-around;
-    padding: 1rem;
+    justify-content: space-around; 
 }
 header nav ul {
     display: flex;
