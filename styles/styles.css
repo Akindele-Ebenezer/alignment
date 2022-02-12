@@ -425,13 +425,7 @@ ul {
         justify-content: unset;
     }
 }
-
-@media (max-width: 616px) {
-    .body {
-        width: 100vw;
-    }
-}
-
+ 
 @media (max-width: 412px) {
     .sec-2 .box {
         width: 97vw;   
