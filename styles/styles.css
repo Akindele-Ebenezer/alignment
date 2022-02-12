@@ -356,8 +356,7 @@ header {
     background: var(--pink);
     color: var(--color-5);
     display: flex;
-    justify-content: center;
-    margin-top: 7rem;
+    justify-content: center; 
     padding-block: 7rem;
     text-decoration: underline;
     text-decoration-color: var(--color-3);
