@@ -124,7 +124,7 @@ nav div:first-child {
 }
 
 nav div:last-child {
-    align-self: center;
+    transform: translateY(.3rem);
 }
 
 p {
