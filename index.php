@@ -77,6 +77,7 @@
                         <h1>Need Help?</h1>
                         <p>Call us now for urgent jobs. <br> We render services very accurately, as fast as we can.</p>
                         <button>CALL</button>
+                        <button>INFORM US NOW</button>
                     </div>
 
                 </section>
@@ -106,7 +107,7 @@
                             </ul>
                             <p>And many more.. 😃</p>
                         <br>
-                        <button>INFORM US NOW</button>
+                        <button>VIEW ALL SUPPLIES</button>
                     </div>
 
                 </section>
