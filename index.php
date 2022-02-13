@@ -106,7 +106,7 @@
                             </ul>
                             <p>And many more.. 😃</p>
                         <br>
-                        <button>VIEW ALL SUPPLIES</button>
+                        <button>INFORM US NOW</button>
                     </div>
 
                 </section>
