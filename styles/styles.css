@@ -228,6 +228,11 @@ header b {
     padding: 1rem; 
 }
  
+.sec-2 + div {
+    display: flex;
+    justify-content: center;
+}
+
 .sec-2 div,
 .sec-5 div {
     margin-inline: 2rem;
