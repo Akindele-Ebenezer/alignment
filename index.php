@@ -65,7 +65,7 @@
             
         </section>
         <div>
-            <button>VIEW more services</button>
+            <button>VIEW MORE SERVICES</button>
         </div>
 
         <div class="sec-3-wrapper">
