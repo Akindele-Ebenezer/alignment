@@ -30,6 +30,83 @@
     margin-left: 1rem; 
 }
 
+.contact {
+    display: flex;
+}
+
+.contact div {
+    margin: .5rem;
+}
+
+form {
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    border-radius: 1rem;
+    box-shadow: 1px 2px 19px #ddd;
+}
+
+form,
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form .form-info-wrapper {
+    background: var(--color-5);
+    color: #fff;
+    width: 18rem;
+}
+
+.form label,
+.form textarea {
+    margin-left: 1rem;
+}
+
+.form > div {
+    padding: 2rem;
+}
+
+.form > div:last-child {
+    width: 50rem;
+}
+
+.form div:last-child .input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form div:last-child input,
+.form div:last-child textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin: 1rem;
+    outline: none;
+    padding: .5rem;
+    width: 20rem; 
+}
+
+.form div:last-child input[value] {
+    background: var(--color-5);
+    border-radius: .5rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.form h1,
+.form p {
+    margin-block: 1.5rem;
+}
+
+.form textarea {
+    height: 8rem;
+    padding: 1rem;
+    resize: none;
+    width: 42rem;
+}
+
 footer h1,
 .sec-4 h1 {
     color: var(--color-5);
