@@ -424,6 +424,12 @@ ul {
     }
 }
  
+@media (max-width: 424px) {
+    .sec-3 button {
+        margin-bottom: 1rem;
+    }
+}
+
 @media (max-width: 412px) {
     .sec-2 .box {
         width: 97vw;   
