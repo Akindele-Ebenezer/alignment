@@ -63,10 +63,10 @@
                 <button>NOTIFY</button>
             </div>
             
-            <button>VIEW more services</button>
-
         </section>
-
+        <div>
+            <button>VIEW more services</button>
+        </div>
 
         <div class="sec-3-wrapper">
             <div>
