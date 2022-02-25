@@ -97,15 +97,14 @@
                                 <li>filters</li>
                             </ul>
 
-                            <p>and other lubricants such as...</p>
+                            <p>and other ITEMS such as...</p>
 
                             <ul>
                                 <li>cars</li>
                                 <li>inverter batteries</li>
                                 <li>paints</li>
                                 <li>personal protective equipment PPEs</li> 
-                            </ul>
-                            <p>And many more.. 😃</p>
+                            </ul> 
                         <br>
                         <button>VIEW ALL SUPPLIES</button>
                     </div>
