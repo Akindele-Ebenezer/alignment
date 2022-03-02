@@ -1,19 +1,17 @@
-const viewAllSuppliesButton = document.querySelector(".sec-4 div button");
 
-viewAllSuppliesButton.addEventListener("click", () => {
-    window.open("https://ebengm.herokuapp.com/supplies.php")
-});
+const navSmScreen = document.querySelector('.nav-sm-screen');
+const toggleIcon = document.querySelector('.toggle-icon'); 
+const depasaLogo = document.querySelector('.depasa-logo');
 
-const viewMoreServicesButton = document.querySelector(".sec-2 + div button");
+toggleIcon.addEventListener('click', () => {   
+    navSmScreen.classList.toggle('toggle');  
+    depasaLogo.classList.toggle('toggleLogo');
+}); 
 
-viewMoreServicesButton.addEventListener("click", () => {
-    window.open("https://ebengm.herokuapp.com/all-services.php");
-});
 
-const readMoreButton = document.querySelector(".sec-6 .sec-inner-wrapper .sec-inner div button");
 
-readMoreButton.addEventListener("click", () => {
-    window.open("https://ebengm.herokuapp.com/logistics.php")
-});
+const alertRecordChanges = document.querySelector('.alert');
 
-// console.log(viewMoreServicesButton);
+setTimeout(() => {
+    alertRecordChanges.style.display = 'none';
+}, 6000);
