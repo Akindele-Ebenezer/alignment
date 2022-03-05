@@ -1,17 +1,6 @@
+const allSupplies = document.querySelector(".sec-4 div button");
 
-const navSmScreen = document.querySelector('.nav-sm-screen');
-const toggleIcon = document.querySelector('.toggle-icon'); 
-const depasaLogo = document.querySelector('.depasa-logo');
-
-toggleIcon.addEventListener('click', () => {   
-    navSmScreen.classList.toggle('toggle');  
-    depasaLogo.classList.toggle('toggleLogo');
-}); 
-
-
-
-const alertRecordChanges = document.querySelector('.alert');
-
-setTimeout(() => {
-    alertRecordChanges.style.display = 'none';
-}, 6000);
+allSupplies.addEventListener("click", () => {
+    window.open("http://127.0.0.1/car-alignment/supplies.php")
+})
+console.log(allSupplies);

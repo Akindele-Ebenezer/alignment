@@ -1,106 +1,180 @@
-<?php 
- 
-    $header_info = "<a href='index.php'>Manage all your Records effectively. Log In</a>";
-    $title = 'FUEL TEST | Log In';
-    include 'header.php';
-
-    global $error_double;
-    global $error_email;
-    global $error_password;
-    global $email;
-
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-        $password = mysqli_real_escape_string($conn, $_POST['password_']);  
-        $email = mysqli_real_escape_string($conn, $_POST['email']);
- 
-        $sql = "SELECT * FROM fuel_test_users WHERE email = '$email' AND password = '$password';";
-        $query = mysqli_query($conn, $sql);
-        $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
-        $id = $result[0]['id'];
-
-        if (mysqli_num_rows($query) == 1) {
-
-            session_start();
-            $_SESSION['auth'] = "true";  
-            $_SESSION['id'] = $id;
-
-            
-            header("location: fuel-test.php");
-
-        } 
-
-        if (empty($email)) {
-            $error_email = ' * Enter Email..';
-        } elseif (empty($password)) {
-            $error_password = ' * Enter Password';
-        } else {
-            $error_double = ' * Wrong Email/Password';
-        }
-
-    }
-
-?>
-
-    <style>
-
-        .depasa-logo {
-            top: 2.6rem;
-        }
-     
-        .login-wrapper h2 { 
-            color: var(--color-1);
-        }
-
-       .records-nav {
-           display: none;
-       }
-
-       .toggle-icon {
-           display: none;
-       }
-
-       @media (min-width: 900px) {
-            .login-wrapper h2 {
-                display: none;
-            }
-
-        }
-
-       @media (max-width: 658px) {
-            .depasa-logo {
-                top: 4.5rem;
-            }
-       }
-
-    </style>
-    
-    <form action="" class="login-wrapper login" method="post">  
-            <div style="background: url(images/fuel-2.jpg); 
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                height: 100vh; width: 70vw;" class='login-wrapper-first box'> 
-            </div>
-            <div class="box box-2">
-                <div class="auth">
-                    <h2>Manage all your Records effectively.</h2>
-                    <p>Create active records! <button><a href="index.php">Log In</a></button></p>
-                    <br><span><?= $error_double; ?></span>
-                    <h1>Log In</h1> 
-                    <br />  
-                    <label for="email">Email</label> <span><?= $error_email; ?></span> <br />
-                    <input type="email" name="email" value="<?= $email; ?>" placeholder="example@depasamarine.com"/>
-                    <br />
-                    <label for="password">Password</label> <span><?= $error_password; ?></span><br />
-                    <input type="password" name="password_" placeholder="8+ Characters.."/>
-                    <br />
-                    <button type="submit" name="login">Log In</button>                  
-                    <br /> 
-                </div>
-            </div>  
-    </form>
-
 <?php
-    include 'footer.php'
+    include "header.php";
 ?>
+
+<main>
+    <div class="body">   
+
+        
+        <section class="sec-1">
+
+            <div class="sec-1-inner">
+                <div>
+                    <h1><?= date('l d, 20y') ?></h1>
+                    <h2>EBEN<b>GM</b> <span>Enterprises</span></h2>
+                    <p> Our nature of business include Vehicles Alignment, Car Service,   Installation of Inverter and Solar System, Resale of Refurbished Company Used Vehicle, Iron Gates and Doors, Paints and even more.</p>
+                    <button>CONTACT US</button>
+                    <button>LEARN MORE</button>
+                </div>
+            </div>
+    
+            <div>
+                <img src="images/used-cars.jpg" alt="">
+                <img src="images/bg-2.jpeg" alt="">
+                <img src="images/bg-3.jpg" alt="">
+                <img src="images/bg-4.jpeg" alt=""> 
+            </div>
+
+        </section>    
+        
+        
+        <div class="sec-2-title">
+            <h1>SERVICES</h1>
+        </div>
+        
+        <section class="sec-2">
+            
+            <div class="box">
+                <div style="background-image: url('images/used-cars.jpg')"></div>
+                <h1>Resale of Refurbished Company used Vehicle</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <button>NOTIFY</button>
+            </div>
+
+            <div class="box">
+                <div style="background-image: url('images/solar.jpeg')"></div>
+                <h1>Installation of Inverter and Solar System</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <button>NOTIFY</button>
+            </div> 
+            
+            <div class="box">
+                <div style="background-image: url('images/services-1.jpeg')"></div>
+                <h1>Car Service</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <button>NOTIFY</button>
+            </div>
+
+            <div class="box">
+                <div style="background-image: url('images/services-2.jpg')"></div>
+                <h1>Vehicle Alignment</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <button>NOTIFY</button>
+            </div>
+
+        </section>
+
+        <div class="sec-3-wrapper">
+            <div>
+                <section class="sec-3">
+
+                    <!-- IMAGE -->
+                    <div>
+                        <h1>Need Help?</h1>
+                        <p>Call us now for urgent jobs. <br> We render services very accurately, as fast as we can.</p>
+                        <button>CALL</button>
+                    </div>
+
+                </section>
+
+                <section class="sec-4">
+
+                    <div>
+                        <h1>Our SUPPLIES 😉</h1>
+                        <p>We Supply all brands of new products like;
+                            <ul>
+                                <li> tyres</li>
+                                <li>motor bikes</li>
+                                <li>tricycles (Keke)</li>
+                                <li>car servicing and spare parts</li>
+                                <li>accessories</li>
+                                <li>Engine oil</li>
+                                <li>filters</li>
+                            </ul>
+
+                            <p>and other lubricants such as...</p>
+
+                            <ul>
+                                <li>cars</li>
+                                <li>inverter batteries</li>
+                                <li>paints</li>
+                                <li>personal protective equipment PPEs</li> 
+                            </ul>
+                            <p>And many more.. 😃</p>
+                        <br>
+                        <button>VIEW ALL SUPPLIES</button>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <section class="sec-5">
+
+        <div class="box">
+                <div style="background-image: url('images/doors.jpg'); background-size: contain;"></div>
+                <h1>Doors</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <button>NOTIFY</button>
+            </div>
+            
+            <div class="box">
+                <div style="background-image: url('images/iron-gates.jpg')"></div>
+                <h1>Iron Gates</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <button>NOTIFY</button>
+            </div>
+            <div class="box">
+                <div style="background-image: url('images/paints.jpg')"></div>
+                <h1>Paints</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illum deserunt labore dolorum exercitationem velit pariatur doloribus odio dolorem doloremque natus fugiat, voluptate est repudiandae corporis tempore. Aperiam, vero magni.
+                Illo quos eligendi quam eos ratione. </p>
+                <button>NOTIFY</button>
+            </div>
+
+        </section>
+
+        <section><!-- image --></section>
+
+        <section class="sec-6">
+
+            <div class="sec-inner-wrapper">
+                <div class="sec-inner">
+                    <div>
+                        <h1>Areas We Cover In NIGERIA</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id quo autem molestias vitae, rerum fuga optio reiciendis velit illo enim repudiandae cupiditate maxime asperiores iusto dolores? Vitae, earum nesciunt.</p>
+                    </div>
+
+                    <div>
+                        <h1>About Us</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id quo autem molestias vitae, rerum fuga optio reiciendis velit illo enim repudiandae cupiditate maxime asperiores iusto dolores? Vitae, earum nesciunt.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="images/bg-1.jpeg" alt="">
+                    <img src="images/used-cars-2.jpg" alt="">
+                    <img src="images/used-cars-3.jpg" alt="">
+                    <img src="images/bg-4.jpeg" alt=""> 
+                </div>
+            </div>
+
+        </section>
+
+        <section class="sec-1">
+            
+            <div class="sec-1-inner">
+                <div>
+                    <h1>Individual Consultation</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius quas architecto sapiente. Repellat quos a odio, ipsam repellendus sapiente accusantium et iusto voluptates recusandae, reprehenderit natus asperiores! Ratione, cumque.</p>
+                    <button>CONTACT US</button>
+                </div>
+            </div>
+            
+            <div style="background-image: url('images/used-cars-3.jpg'); background-size: cover;"></div>     
+
+        </section> 
+        
+        <?php
+            include "footer.php";
+        ?>
