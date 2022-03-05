@@ -368,6 +368,12 @@ ul {
     list-style: none;   
 }
 
+@media (max-width: 1446px) {
+    .body {
+        width: 100vw;
+    }
+}
+
 @media (max-width: 900px) {
     .sec-inner {
         flex-direction: column;
