@@ -1,4 +1,5 @@
 <?php
+    $page_title = "EBEN GM";
     include "header.php";
 ?>
 
@@ -11,9 +12,9 @@
             <div class="sec-1-inner">
                 <div>
                     <h1><?= date('l d, 20y') ?></h1>
-                    <h2>EBEN<b>GM</b> <span>Enterprises</span></h2>
+                    <h2>EBEN <b>GM</b> <span>Enterprises</span></h2>
                     <p> Our nature of business include Vehicles Alignment, Car Service,   Installation of Inverter and Solar System, Resale of Refurbished Company Used Vehicle, Iron Gates and Doors, Paints and even more.</p>
-                    <button>CONTACT US</button>
+                    <button><a href="https://ebengm.herokuapp.com/contact.php">CONTACT US</a></button>
                     <button>LEARN MORE</button>
                 </div>
             </div>
@@ -37,32 +38,35 @@
             <div class="box">
                 <div style="background-image: url('images/used-cars.jpg')"></div>
                 <h1>Resale of Refurbished Company used Vehicle</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <p>We will get you first body company used vehicles and refurbished to your taste at affordable price.</p>
                 <button>NOTIFY</button>
             </div>
 
             <div class="box">
                 <div style="background-image: url('images/solar.jpeg')"></div>
                 <h1>Installation of Inverter and Solar System</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <p>Base on your load requirement, we provide corresponding capacity of inverter and solar panels as cost saving  for petrol/diesel. <br><br> Enjoy noiseless environment with excellent neighbor friendliness achieved.</p>
                 <button>NOTIFY</button>
             </div> 
             
             <div class="box">
                 <div style="background-image: url('images/services-1.jpeg')"></div>
-                <h1>Car Service</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <h1>Car Services</h1>
+                <p>Replacement with quality oils,  filters and plugs. <br><br> Including Service advise on how to maintain  your car in good condition.</p>
                 <button>NOTIFY</button>
             </div>
 
             <div class="box">
                 <div style="background-image: url('images/services-2.jpg')"></div>
                 <h1>Vehicle Alignment</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
+                <p>Available to keep your vehicles running smoothly and maintain  Fuel Economy Efficiency</p>
                 <button>NOTIFY</button>
             </div>
-
+            
         </section>
+        <div>
+            <button>VIEW MORE SERVICES</button>
+        </div>
 
         <div class="sec-3-wrapper">
             <div>
@@ -102,40 +106,13 @@
                             </ul>
                             <p>And many more.. 😃</p>
                         <br>
-                        <button>VIEW ALL SUPPLIES</button>
+                        <button>INFORM US NOW</button>
                     </div>
 
                 </section>
             </div>
         </div>
-
-        <section class="sec-5">
-
-        <div class="box">
-                <div style="background-image: url('images/doors.jpg'); background-size: contain;"></div>
-                <h1>Doors</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
-                <button>NOTIFY</button>
-            </div>
-            
-            <div class="box">
-                <div style="background-image: url('images/iron-gates.jpg')"></div>
-                <h1>Iron Gates</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores autem delectus asperiores quae voluptatibus nemo unde debitis beatae necessitatibus quibusdam placeat laboriosam, temporibus nesciunt voluptas minima nihil quia tenetur!5</p>
-                <button>NOTIFY</button>
-            </div>
-            <div class="box">
-                <div style="background-image: url('images/paints.jpg')"></div>
-                <h1>Paints</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illum deserunt labore dolorum exercitationem velit pariatur doloribus odio dolorem doloremque natus fugiat, voluptate est repudiandae corporis tempore. Aperiam, vero magni.
-                Illo quos eligendi quam eos ratione. </p>
-                <button>NOTIFY</button>
-            </div>
-
-        </section>
-
-        <section><!-- image --></section>
-
+        
         <section class="sec-6">
 
             <div class="sec-inner-wrapper">
@@ -147,7 +124,12 @@
 
                     <div>
                         <h1>About Us</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id quo autem molestias vitae, rerum fuga optio reiciendis velit illo enim repudiandae cupiditate maxime asperiores iusto dolores? Vitae, earum nesciunt.</p>
+                        <p>Our nature of business covers all  supply, services, Logistics and sales. <br><br> All supplies include motor bikes, tricycles Keke, Tyres, battery, spare parts, lubricants , iron doors, house paints, and many more. <br><br> 
+Services include Vehicles alignment, Car Service ,  Installation of Inverter and Solar System,  Home furniture, painting, Tiling works, projects supervision for top finishing. <br><br>
+
+ Logistics include car and buses hire , Ferry Service. <br>  
+Refurbished and resale of still in very good condition company/private used vehicles. <br>
+Sales and distribution of finished goods.</p>
                         <button>Read More</button>
                     </div>
                 </div>
@@ -171,7 +153,7 @@
                 </div>
             </div>
             
-            <div style="background-image: url('images/used-cars-3.jpg'); background-size: cover;"></div>     
+            <div style="background-image: url('images/used-cars-3.jpg'); background-size: cover; height: 20rem;"></div>     
 
         </section> 
         

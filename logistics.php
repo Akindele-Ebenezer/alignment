@@ -18,7 +18,7 @@
         
         <div class=\"box\">
             <div style=\"background-image: url('images/used-cars-2.jpg')\"></div>
-            <h1>Refurbished and Resale of still in very good Condition /Private used Vehicle</h1> 
+            <h1>Refurbished and Resale of still in very good Condition/Private used Vehicle</h1> 
             <button>NOTIFY</button>
         </div>
 
